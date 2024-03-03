@@ -1,0 +1,99 @@
+:root {
+    --yellow: hsl(47, 88%, 63%);
+    --White: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 50%);
+    --Black: hsl(0, 0%, 7%);
+    --sm: 500;
+    --lg: 800;
+
+}
+
+body {
+    font-family: "Figtree", sans-serif;
+    font-size: 16px;
+    margin: 0;
+    background: var(--yellow);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.card {
+    width: 384px;
+    height: 523px;
+    background: var(--White);
+    border-radius: 22px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: var(--Black);
+    padding: 23px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 8px 8px 0px 0px rgba(0, 0, 0, 1);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 11px;
+}
+
+
+
+.yellow {
+    background: var(--yellow);
+    width: 72px;
+    height: 18px;
+    text-align: center;
+    padding: 5px;
+    margin-top: 20px;
+    border-radius: 3px;
+    margin-bottom: 14px;
+}
+
+h1:hover {
+    color: var(--yellow);
+}
+
+.highlight {
+    box-shadow: 16px 16px 0px 0px rgba(0, 0, 0, 1);
+}
+
+
+.date {
+    margin: auto;
+    font-weight: var(--lg);
+
+}
+
+h1 {
+    font-weight: var(--lg);
+    margin-bottom: 17px;
+    margin-top: 18px;
+}
+
+p {
+    color: var(--Grey);
+    line-height: 24px;
+    font-weight: var(--sm);
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    height: 45px;
+}
+
+.card .avatar {
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    margin-right: 14px;
+    font-weight: var(--lg);
+
+}
